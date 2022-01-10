@@ -17,7 +17,7 @@ So we used our newly acquired skills in GDSC classes to create an app to solve t
 
 
 So the Solution we have come up with is ORARIO!!
-It's an app which includes your timetable, your all subject syllabus, Links of various clubs insta/fb IDs and Discord 
+It's an app that has your schedule, all course syllabuses, links to various clubs' instagram/facebook IDs, and Discord accounts, as well as some Fun Time Activities.
 
 <img width="559" alt="Screenshotorario" src="https://i.imgur.com/gdI6ZKM.png">
 
@@ -37,19 +37,18 @@ The app was created in Android Studio with Kotlin as the primary programming lan
 
 #### Application Link & Future Scope
 
-The App is currently in its very initial stage with only first version released with basic idea, we also some idea on how we would like to develop our app.
+The App is still in its early stages, with only the first version ready with a basic concept, we also have some ideas for how we want to improve our app.
 
- - To make the Sign In page more complete and also link students with their Outlook Email ID.
- - Firstly we would like to make app online and have its timetable update with outlook email Id of the people connected when they sign In the app, the App will also automatically update if there are any cancelled classes.
- - Also the syllabus expansion to cover students of all 4 years and it to update changes if any made by SPPU.
- - Include Decode and Previous Year Papers for students in Resource Section.
- - To make Club Section show which Club the student is in and 
- - More Fun Time activities
- - Make the App UI more elegant looking and also to add light mode option
+ - To make the Sign In page more complete and to link students' Outlook Email IDs.
+ - We'd like to put the app online and have it refresh its schedule with the individuals connected's outlook email addresses when they sign up. In the app, if any classes are cancelled, the app will instantly update.
+ - Also, the syllabus will be expanded to cover students in all four years, as well as any adjustments made by SPPU.
+ - In the Resource Section, include Previous Year Papers for students.
+ - Add a Club Section to show all of the clubs that a student is a member of.
+ - Make the app's user interface more appealing, and include a light mode option.
 
 Some Really Really Future Update:
 
-- Help people in organizing meets, it gets crowded when u join too many clubs, so This app will give notifs when There are any scheduled meet other than academics like those in Clubs, and inst
+- Help individuals organise meetings; it can get congested if you join too many clubs; hence, this app will send notifications when there are any scheduled meets other than academics, such as those in clubs, and Branch Meetings.
 
 
 "Orario" is Time(table) in Italian
