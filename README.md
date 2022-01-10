@@ -39,13 +39,13 @@ Navigation & Livedata: In Fun Time, we included navigation to assist users relax
 
 The App is currently in its very initial stage with only first version released with basic idea, we also some idea on how we would like to develop our app.
 
-- To make the Sign In page more complete and also link students with their Outlook Email ID.
-- Firstly we would like to make app online and have its timetable update with outlook email Id of the people connected when they sign In the app, the App will also automatically update if there are any cancelled classes.
-- Also the syllabus expansion to cover students of all 4 years and it to update changes if any made by SPPU.
-- Include Decode and Previous Year Papers for students in Resource Section.
-- To make Club Section show which Club the student is in and 
-- More Fun Time activities
-- Make the App UI more elegant looking and also to add light mode option
++ - To make the Sign In page more complete and also link students with their Outlook Email ID.
++ - Firstly we would like to make app online and have its timetable update with outlook email Id of the people connected when they sign In the app, the App will also automatically update if there are any cancelled classes.
++ - Also the syllabus expansion to cover students of all 4 years and it to update changes if any made by SPPU.
++ - Include Decode and Previous Year Papers for students in Resource Section.
++ - To make Club Section show which Club the student is in and 
++ - More Fun Time activities
++ - Make the App UI more elegant looking and also to add light mode option
 
 Some Really Really Future Update:
 
