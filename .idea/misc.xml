@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Birendra Mohapatra/AndroidStudioProjects/classrec/app/src/main/res/drawable/bg_card.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Birendra Mohapatra/AndroidStudioProjects/classrec/app/src/main/res/drawable/bg_header.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Birendra Mohapatra/AndroidStudioProjects/classrec/app/src/main/res/drawable/ic_baseline_keyboard_arrow_down_24.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Birendra Mohapatra/AndroidStudioProjects/classrec/app/src/main/res/drawable/ic_baseline_sort_24.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Birendra Mohapatra/AndroidStudioProjects/classrec/app/src/main/res/font/aclonica.xml" value="0.2682291666666667" />
+        <entry key="..\:/Users/Birendra Mohapatra/AndroidStudioProjects/classrec/app/src/main/res/layout/activity_bxe_info.xml" value="0.21793037672866" />
+        <entry key="..\:/Users/Birendra Mohapatra/AndroidStudioProjects/classrec/app/src/main/res/layout/activity_clubs.xml" value="0.23802083333333332" />
+        <entry key="..\:/Users/Birendra Mohapatra/AndroidStudioProjects/classrec/app/src/main/res/layout/activity_clubs_info.xml" value="0.264" />
+        <entry key="..\:/Users/Birendra Mohapatra/AndroidStudioProjects/classrec/app/src/main/res/layout/activity_days.xml" value="0.264" />
+        <entry key="..\:/Users/Birendra Mohapatra/AndroidStudioProjects/classrec/app/src/main/res/layout/activity_flashgames.xml" value="0.23802083333333332" />
+        <entry key="..\:/Users/Birendra Mohapatra/AndroidStudioProjects/classrec/app/src/main/res/layout/activity_friday.xml" value="0.23802083333333332" />
+        <entry key="..\:/Users/Birendra Mohapatra/AndroidStudioProjects/classrec/app/src/main/res/layout/activity_fullscreen.xml" value="0.23802083333333332" />
+        <entry key="..\:/Users/Birendra Mohapatra/AndroidStudioProjects/classrec/app/src/main/res/layout/activity_jokes.xml" value="0.22395833333333334" />
+        <entry key="..\:/Users/Birendra Mohapatra/AndroidStudioProjects/classrec/app/src/main/res/layout/activity_login.xml" value="0.23802083333333332" />
+        <entry key="..\:/Users/Birendra Mohapatra/AndroidStudioProjects/classrec/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/Birendra Mohapatra/AndroidStudioProjects/classrec/app/src/main/res/layout/activity_maths_info.xml" value="0.23802083333333332" />
+        <entry key="..\:/Users/Birendra Mohapatra/AndroidStudioProjects/classrec/app/src/main/res/layout/activity_monday.xml" value="0.2" />
+        <entry key="..\:/Users/Birendra Mohapatra/AndroidStudioProjects/classrec/app/src/main/res/layout/activity_paps_info.xml" value="0.23802083333333332" />
+        <entry key="..\:/Users/Birendra Mohapatra/AndroidStudioProjects/classrec/app/src/main/res/layout/activity_phy_info.xml" value="0.264" />
+        <entry key="..\:/Users/Birendra Mohapatra/AndroidStudioProjects/classrec/app/src/main/res/layout/activity_resource.xml" value="0.23802083333333332" />
+        <entry key="..\:/Users/Birendra Mohapatra/AndroidStudioProjects/classrec/app/src/main/res/layout/activity_sme_info.xml" value="0.23802083333333332" />
+        <entry key="..\:/Users/Birendra Mohapatra/AndroidStudioProjects/classrec/app/src/main/res/layout/activity_subjects.xml" value="0.23802083333333332" />
+        <entry key="..\:/Users/Birendra Mohapatra/AndroidStudioProjects/classrec/app/src/main/res/layout/activity_thursday.xml" value="0.23802083333333332" />
+        <entry key="..\:/Users/Birendra Mohapatra/AndroidStudioProjects/classrec/app/src/main/res/layout/activity_tuesday.xml" value="0.23802083333333332" />
+        <entry key="..\:/Users/Birendra Mohapatra/AndroidStudioProjects/classrec/app/src/main/res/layout/activity_wednesday.xml" value="0.23802083333333332" />
+        <entry key="..\:/Users/Birendra Mohapatra/AndroidStudioProjects/classrec/app/src/main/res/layout/activity_youtube.xml" value="0.22395833333333334" />
+        <entry key="..\:/Users/Birendra Mohapatra/AndroidStudioProjects/classrec/app/src/main/res/layout/fragment_flashgames_info.xml" value="0.23802083333333332" />
+        <entry key="..\:/Users/Birendra Mohapatra/AndroidStudioProjects/classrec/app/src/main/res/layout/fragment_fun_frag1.xml" value="0.264" />
+        <entry key="..\:/Users/Birendra Mohapatra/AndroidStudioProjects/classrec/app/src/main/res/layout/fragment_fun_frag2.xml" value="0.23802083333333332" />
+        <entry key="..\:/Users/Birendra Mohapatra/AndroidStudioProjects/classrec/app/src/main/res/layout/fragment_jpkes_info.xml" value="0.23802083333333332" />
+        <entry key="..\:/Users/Birendra Mohapatra/AndroidStudioProjects/classrec/app/src/main/res/layout/fragment_youtube_info.xml" value="0.23802083333333332" />
+        <entry key="..\:/Users/Birendra Mohapatra/AndroidStudioProjects/classrec/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Birendra Mohapatra/AndroidStudioProjects/classrec/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.264" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

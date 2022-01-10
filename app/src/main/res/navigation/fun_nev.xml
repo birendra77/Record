@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fun_nev"
+    app:startDestination="@id/fun_frag1">
+
+    <fragment
+        android:id="@+id/fun_frag1"
+        android:name="com.example.classrec.fun_frag1"
+        android:label="fragment_fun_frag1"
+        tools:layout="@layout/fragment_fun_frag1" >
+        <action
+            android:id="@+id/action_fun_frag1_to_youtube_info"
+            app:destination="@id/youtube_info" />
+        <action
+            android:id="@+id/action_fun_frag1_to_jpkes_info"
+            app:destination="@id/jpkes_info" />
+        <action
+            android:id="@+id/action_fun_frag1_to_flashgames_info"
+            app:destination="@id/flashgames_info" />
+    </fragment>
+    <fragment
+        android:id="@+id/youtube_info"
+        android:name="com.example.classrec.youtube_info"
+        android:label="fragment_youtube_info"
+        tools:layout="@layout/fragment_youtube_info" />
+    <fragment
+        android:id="@+id/jpkes_info"
+        android:name="com.example.classrec.jpkes_info"
+        android:label="fragment_jpkes_info"
+        tools:layout="@layout/fragment_jpkes_info" />
+    <fragment
+        android:id="@+id/flashgames_info"
+        android:name="com.example.classrec.flashgames_info"
+        android:label="fragment_flashgames_info"
+        tools:layout="@layout/fragment_flashgames_info" />
+</navigation>

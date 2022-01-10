@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".flashgames_info"
+    android:orientation="vertical">
+    <androidx.cardview.widget.CardView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        app:cardCornerRadius="75dp">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/pac_logo">
+
+        </ImageView>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="380dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:cardCornerRadius="30dp"
+        app:cardBackgroundColor="#FF914D">
+        <TextView
+            android:id="@+id/pm"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/packman"
+            android:paddingTop="20dp"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:fontFamily="sans-serif-medium">
+
+        </TextView>
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="380dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:cardCornerRadius="30dp"
+        app:cardBackgroundColor="#FF914D">
+        <TextView
+            android:id="@+id/sm"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/supermario"
+            android:textColor="@color/black"
+            android:paddingTop="20dp"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:fontFamily="sans-serif-medium">
+
+        </TextView>
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="380dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:cardCornerRadius="30dp"
+        app:cardBackgroundColor="#FF914D">
+
+        <TextView
+            android:id="@+id/au"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:paddingTop="20dp"
+            android:textColor="@color/black"
+            android:text="@string/amongus"
+            android:textSize="25sp">
+
+        </TextView>
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="More Coming Soon !!!"
+        android:textSize="20sp">
+
+    </TextView>
+
+
+
+</LinearLayout>

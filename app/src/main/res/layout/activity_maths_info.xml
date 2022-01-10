@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_card"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginBottom="20dp"
+            android:background="#2C3E50"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="35dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                app:cardElevation="30dp">
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="0dp"
+                android:elevation="30dp"
+                android:visibility="visible"
+                app:srcCompat="@drawable/maths_logo"
+                tools:visibility="visible" />
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="290dp"
+                android:layout_height="47dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/aclonica"
+                android:text="Mathematics"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="35sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="@color/start"
+                android:clickable="true"
+                android:contextClickable="true"
+                android:foreground="?selectableItemBackground"
+                app:cardCornerRadius="50dp"
+                app:cardElevation="20dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/amarante"
+                    android:gravity="center|start"
+                    android:paddingLeft="20dp"
+                    android:text="UNIT-1 Differential Calculus"
+
+                    android:textSize="30sp"
+                    android:textStyle="bold">
+
+                </TextView>
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:fontFamily="sans-serif"
+                android:text="Rolle’s Theorem, Mean Value Theorems, Taylor's Series and Maclaurin's Series, Expansion of functions using standard expansions, Indeterminate Forms, L' Hospital's Rule, Evaluation of Limits and Applications."
+                android:textSize="25sp">
+
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="@color/start"
+                android:clickable="true"
+                android:contextClickable="true"
+                android:foreground="?selectableItemBackground"
+                app:cardCornerRadius="50dp"
+                app:cardElevation="20dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/amarante"
+                    android:gravity="center|start"
+                    android:paddingLeft="20dp"
+                    android:text="UNIT-2 Fourier Series"
+                    android:textSize="30sp"
+                    android:textStyle="bold">
+
+                </TextView>
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:fontFamily="sans-serif"
+                android:text="Definition, Dirichlet’s conditions, Full range Fourier series, Half range Fourier series, Harmonic analysis, Parseval’s identity and Applications to problems in Engineering."
+                android:textSize="25sp">
+
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="@color/start"
+                android:clickable="true"
+                android:contextClickable="true"
+                android:foreground="?selectableItemBackground"
+                app:cardCornerRadius="50dp"
+                app:cardElevation="20dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/amarante"
+                    android:gravity="center|start"
+                    android:paddingLeft="20dp"
+                    android:text="UNIT-3 Partial Differentiation"
+                    android:textSize="30sp"
+                    android:textStyle="bold">
+
+                </TextView>
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:fontFamily="sans-serif"
+                android:text="Introduction to functions of several variables, Partial Derivatives, Euler's Theorem on Homogeneous functions, Partial derivative of Composite Function, Total Derivative, Change of Independent variables"
+                android:textSize="25sp">
+
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="@color/start"
+                android:clickable="true"
+                android:contextClickable="true"
+                android:foreground="?selectableItemBackground"
+                app:cardCornerRadius="50dp"
+                app:cardElevation="20dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/amarante"
+                    android:gravity="center|start"
+                    android:paddingLeft="20dp"
+                    android:text="UNIT-4 Applications of Partial Differentiation"
+                    android:textSize="30sp"
+                    android:textStyle="bold">
+
+                </TextView>
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:fontFamily="sans-serif"
+                android:text="Jacobian and its applications, Errors and Approximations, Maxima and Minima of functions of two variables, Lagrange's method of undetermined multipliers."
+                android:textSize="25sp">
+
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="@color/start"
+                android:clickable="true"
+                android:contextClickable="true"
+                android:foreground="?selectableItemBackground"
+                app:cardCornerRadius="50dp"
+                app:cardElevation="20dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/amarante"
+                    android:gravity="center|start"
+                    android:paddingLeft="20dp"
+                    android:text="UNIT-5 Linear Algebra - Matrices, System of Linear Equations"
+                    android:textSize="30sp"
+                    android:textStyle="bold">
+
+                </TextView>
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:fontFamily="sans-serif"
+                android:text="Rank of a Matrix, System of Linear Equations, Linear Dependence and Independence, Linear and Orthogonal Transformations, Application to problems in Engineering."
+                android:textSize="25sp">
+
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="@color/start"
+                android:clickable="true"
+                android:contextClickable="true"
+                android:foreground="?selectableItemBackground"
+                app:cardCornerRadius="50dp"
+                app:cardElevation="20dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/amarante"
+                    android:gravity="center|start"
+                    android:paddingLeft="20dp"
+                    android:text="UNIT-6 Linear Algebra-Eigen Values and Eigen Vectors, Diagonaliztion"
+                    android:textSize="30sp"
+                    android:textStyle="bold">
+
+                </TextView>
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:fontFamily="sans-serif"
+                android:text="Eigen Values and Eigen Vectors, Cayley Hamilton theorem, Diagonaliztion of a matrix, Reduction of Quadratic forms to Canonical form by Linear and Orthogonal transformations."
+                android:textSize="25sp">
+
+            </TextView>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

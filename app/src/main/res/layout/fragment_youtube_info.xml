@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".youtube_info"
+    android:orientation="vertical">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:backgroundTint="#2C2C2C"
+        android:layout_marginTop="20dp"
+        app:cardCornerRadius="75dp">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/yt_logo">
+
+        </ImageView>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="350dp"
+        android:layout_gravity="center"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        app:cardCornerRadius="30dp"
+        app:cardBackgroundColor="@color/midnight">
+        <TextView
+            android:id="@+id/stand_up"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/standup"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:fontFamily="sans-serif-medium">
+
+        </TextView>
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="350dp"
+        android:layout_gravity="center"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        app:cardCornerRadius="30dp"
+        app:cardBackgroundColor="@color/midnight">
+        <TextView
+            android:id="@+id/t_sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/tsp"
+
+            android:gravity="center"
+            android:textSize="25sp"
+            android:fontFamily="sans-serif-medium">
+
+        </TextView>
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="350dp"
+        android:layout_gravity="center"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        app:cardCornerRadius="30dp"
+        app:cardBackgroundColor="@color/midnight">
+        <TextView
+            android:id="@+id/explore"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/explore"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:fontFamily="sans-serif-medium">
+
+        </TextView>
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="More Coming Soon !!!"
+        android:textSize="20sp">
+
+    </TextView>
+
+
+</LinearLayout>

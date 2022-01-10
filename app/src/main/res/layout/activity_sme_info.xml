@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_card"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginBottom="20dp"
+            android:background="#2C3E50"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="35dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                app:cardElevation="30dp">
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="0dp"
+                android:elevation="30dp"
+                android:visibility="visible"
+                app:srcCompat="@drawable/mech_logo"
+                tools:visibility="visible" />
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="290dp"
+                android:layout_height="47dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/aclonica"
+                android:text="SME"
+                android:paddingLeft="60dp"
+                android:textColor="@color/white"
+                android:textSize="35sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="@color/start"
+                android:clickable="true"
+                android:contextClickable="true"
+                android:foreground="?selectableItemBackground"
+                app:cardCornerRadius="50dp"
+                app:cardElevation="20dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/amarante"
+                    android:gravity="center|start"
+                    android:paddingLeft="20dp"
+                    android:text="UNIT-1 Introduction of energy sources and its conversion"
+
+                    android:textSize="30sp"
+                    android:textStyle="bold">
+
+                </TextView>
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:fontFamily="sans-serif"
+                android:text="Energy sources:\n Thermal energy, Hydropower energy, Nuclear energy, Solar energy, Geothermal energy, Wind energy, Hydrogen energy, Biomass energy and Tidal energy. Grades of Energy. (Numerical on efficiency calculation of thermal power plant ) \n\nEnergy conversion devices:\n Introduction of pump, compressor, turbines, wind mills etc (Simple numerical on power and efficiency calculations)"
+                android:textSize="25sp">
+
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="@color/start"
+                android:clickable="true"
+                android:contextClickable="true"
+                android:foreground="?selectableItemBackground"
+                app:cardCornerRadius="50dp"
+                app:cardElevation="20dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/amarante"
+                    android:gravity="center|start"
+                    android:paddingLeft="20dp"
+                    android:text="UNIT-2 Introduction to Thermal Engineering"
+                    android:textSize="30sp"
+                    android:textStyle="bold">
+
+                </TextView>
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:fontFamily="sans-serif"
+                android:text="Laws of thermodynamics, heat engine, heat pump, refrigerator (simple numerical) Modes of heat transfer: conduction, convection and radiation, Fourier’s law, Newton’s law of cooling, Stefan Boltzmann’s law. (Simple numerical) Two stroke and Four stroke engines (Petrol, Diesel and CNG engines). Steam generators."
+                android:textSize="25sp">
+
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="@color/start"
+                android:clickable="true"
+                android:contextClickable="true"
+                android:foreground="?selectableItemBackground"
+                app:cardCornerRadius="50dp"
+                app:cardElevation="20dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/amarante"
+                    android:gravity="center|start"
+                    android:paddingLeft="20dp"
+                    android:text="UNIT-3 Vehicles and their Specifications"
+                    android:textSize="30sp"
+                    android:textStyle="bold">
+
+                </TextView>
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:fontFamily="sans-serif"
+                android:text="Classification of automobile. Vehicle specifications of two/three wheeler, light motor vehicles, trucks, buses and multi-axle vehicles. Engine components (Introduction). Study of engine specifications, comparison of specifications of vehicles. Introduction of Electric and Hybrid Vehicles. Cost analysis of the Vehicle."
+                android:textSize="25sp">
+
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="@color/start"
+                android:clickable="true"
+                android:contextClickable="true"
+                android:foreground="?selectableItemBackground"
+                app:cardCornerRadius="50dp"
+                app:cardElevation="20dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/amarante"
+                    android:gravity="center|start"
+                    android:paddingLeft="20dp"
+                    android:text="UNIT-4 Vehicle systems"
+                    android:textSize="30sp"
+                    android:textStyle="bold">
+
+                </TextView>
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:fontFamily="sans-serif"
+                android:text="Introduction of chassis layouts, steering system, suspension system, braking system, cooling system and fuel injection system and fuel supply system. Study of Electric and Hybrid Vehicle systems. Study of power transmission system, clutch, gear box (Simple Numerical), propeller shaft, universal joint, differential gearbox and axles. Vehicle active and passive safety arrangements: seat, seat belts, airbags and antilock brake system."
+                android:textSize="25sp">
+
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="@color/start"
+                android:clickable="true"
+                android:contextClickable="true"
+                android:foreground="?selectableItemBackground"
+                app:cardCornerRadius="50dp"
+                app:cardElevation="20dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/amarante"
+                    android:gravity="center|start"
+                    android:paddingLeft="20dp"
+                    android:text="UNIT-5 Introduction to Manufacturing"
+                    android:textSize="30sp"
+                    android:textStyle="bold">
+
+                </TextView>
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:fontFamily="sans-serif"
+                android:text="Conventional Manufacturing Processes:\n Casting, Forging, Metal forming (Drawing, Extrusion, etc.), Sheet metal working, Metal joining, etc. Metal cutting processes and machining operations- Turning, Milling and Drilling, etc. Micromachining. Additive manufacturing and 3D Printing. Reconfigurable manufacturing system and IOT, Basic CNC programming: Concept of Computer Numerical Controlled machines."
+                android:textSize="25sp">
+
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="@color/start"
+                android:clickable="true"
+                android:contextClickable="true"
+                android:foreground="?selectableItemBackground"
+                app:cardCornerRadius="50dp"
+                app:cardElevation="20dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/amarante"
+                    android:gravity="center|start"
+                    android:paddingLeft="20dp"
+                    android:text="UNIT-6 Engineering Mechanisms and their application in Domestic Appliances"
+                    android:textSize="30sp"
+                    android:textStyle="bold">
+
+                </TextView>
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:fontFamily="sans-serif"
+                android:text="Introduction to Basic mechanisms and equipment:\n Pumps, blowers, compressors, springs, gears, Belt-Pulley, Chain-Sprocket, valves, levers, etc. Introduction to terms: Specifications, Input, output, efficiency, etc. \n\nApplications of:\n Compressors - Refrigerator, Water cooler, Split AC unit; Pumps - Water pump for overhead tanks, Water filter/Purifier units; Blower - Vacuum cleaner, Kitchen Chimney; Motor - Fans, Exhaust fans, Washing machines; Springs - Door closure, door locks, etc.; Gears - Wall clocks, watches, Printers, etc.; Application of Belt-Pulley/Chain-Sprocket - Photocopier, bicycle, etc.; Valves - Water tap, etc.; Application of levers - Door latch, Brake pedals, etc.; Electric/Solar energy - Geyser, Water heater, Electric iron, etc. (simple numerical on efficiency calculation )"
+                android:textSize="25sp">
+
+            </TextView>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_card"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginBottom="20dp"
+            android:background="#2C3E50"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="35dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                app:cardElevation="30dp">
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="0dp"
+                android:elevation="30dp"
+                android:visibility="visible"
+                app:srcCompat="@drawable/etc_logo"
+                tools:visibility="visible" />
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="290dp"
+                android:layout_height="47dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/aclonica"
+                android:text="BXE"
+                android:paddingLeft="60dp"
+                android:textColor="@color/white"
+                android:textSize="35sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="@color/start"
+                android:clickable="true"
+                android:contextClickable="true"
+                android:foreground="?selectableItemBackground"
+                app:cardCornerRadius="50dp"
+                app:cardElevation="20dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/amarante"
+                    android:gravity="center|start"
+                    android:paddingLeft="20dp"
+                    android:text="UNIT-1 Introduction to Electronics"
+
+                    android:textSize="30sp"
+                    android:textStyle="bold">
+
+                </TextView>
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:fontFamily="sans-serif"
+                android:text="Evolution of Electronics, Impact of Electronics in industry and in society. Introduction to active and passive components, P-type Semiconductor, N-type Semiconductor. Current in semiconductors(Diffusion and Drift Current) \n\nP-N Junction Diode:\n P-N Junction diode construction and its working in forward and reverse bias condition, V-I characteristics of P-N junction Diode, Diode as a switch, Half Wave Rectifier, Full wave and Bridge Rectifier. \n\nSpecial purpose diodes:\n Zener diode, Light Emitting Diode (LED) and photo diode along with V-I characteristics and their applications."
+                android:textSize="25sp">
+
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="@color/start"
+                android:clickable="true"
+                android:contextClickable="true"
+                android:foreground="?selectableItemBackground"
+                app:cardCornerRadius="50dp"
+                app:cardElevation="20dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/amarante"
+                    android:gravity="center|start"
+                    android:paddingLeft="20dp"
+                    android:text="UNIT-2 Transistor and OPAMP"
+                    android:textSize="30sp"
+                    android:textStyle="bold">
+
+                </TextView>
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:fontFamily="sans-serif"
+                android:text="Bipolar Junction Transistor : Construction, type, Operation, V-I Characteristics, region of operation, BJT as switch and CE amplifier \n\nMetal Oxide Semiconductor Field Effect Transistors (MOSFET):\n Construction, Types, Operation, V-I characteristics, Regions of operation, MOSFET as switch and amplifier. \n\nOperational amplifier:\n Functional block diagram of operational amplifier, ideal operational amplifier, Op-amp as Inverting and Non inverting amplifier"
+                android:textSize="25sp">
+
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="@color/start"
+                android:clickable="true"
+                android:contextClickable="true"
+                android:foreground="?selectableItemBackground"
+                app:cardCornerRadius="50dp"
+                app:cardElevation="20dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/amarante"
+                    android:gravity="center|start"
+                    android:paddingLeft="20dp"
+                    android:text="UNIT-3 Number System and Logic Gates"
+                    android:textSize="30sp"
+                    android:textStyle="bold">
+
+                </TextView>
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:fontFamily="sans-serif"
+                android:text="Number System:- Binary, BCD, Octal, Decimal, Hexadecimal their conversion and arithmetic, De-Morgan’s theorem. \nBasic Gates:- AND, OR, NOT, Universal Gate- XOR, XNOR, Half adder, Full adder Flip Flop’s SR, JK, T and D \nIntroduction to Microprocessor and Microcontroller (Only block diagram and explanation)"
+                android:textSize="25sp">
+
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="@color/start"
+                android:clickable="true"
+                android:contextClickable="true"
+                android:foreground="?selectableItemBackground"
+                app:cardCornerRadius="50dp"
+                app:cardElevation="20dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/amarante"
+                    android:gravity="center|start"
+                    android:paddingLeft="20dp"
+                    android:text="UNIT-4 Electronic Instrumentation"
+                    android:textSize="30sp"
+                    android:textStyle="bold">
+
+                </TextView>
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:fontFamily="sans-serif"
+                android:text="Electronic Instruments:\n Principles and block diagram of digital multimeter, Function Generator, Digital Storage Oscilloscope (DSO) Power scope, AC/DC power supply, Auto transformer, Analog ammeter and voltmeter."
+                android:textSize="25sp">
+
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="@color/start"
+                android:clickable="true"
+                android:contextClickable="true"
+                android:foreground="?selectableItemBackground"
+                app:cardCornerRadius="50dp"
+                app:cardElevation="20dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/amarante"
+                    android:gravity="center|start"
+                    android:paddingLeft="20dp"
+                    android:text="UNIT-5 Sensors"
+                    android:textSize="30sp"
+                    android:textStyle="bold">
+
+                </TextView>
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:fontFamily="sans-serif"
+                android:text="Classification of a sensors, Active /Passive Sensors, Analog/Digital Sensors, Motion Sensors (LVDT, Accelerometer), Temperature Sensors (Thermocouple, Thermistor, RTD), Semiconductor Sensors(Gas Sensors), Optical Sensors (LDR), Mechanical Sensors (Strain Guage, Load Cell, Pressure sensors), Biosensors. (Working Principle and one application)."
+                android:textSize="25sp">
+
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="@color/start"
+                android:clickable="true"
+                android:contextClickable="true"
+                android:foreground="?selectableItemBackground"
+                app:cardCornerRadius="50dp"
+                app:cardElevation="20dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/amarante"
+                    android:gravity="center|start"
+                    android:paddingLeft="20dp"
+                    android:text="UNIT-6 Communication Systems"
+                    android:textSize="30sp"
+                    android:textStyle="bold">
+
+                </TextView>
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:fontFamily="sans-serif"
+                android:text="Basic Communication System:\n Block Diagram, Modes of Transmission, Communication Media: Wired and Wireless, Electromagnetic Spectrum, Allotment of frequency band for different applications, Block Diagram of AM and FM Transmitter and receiver\n\n Mobile Communication System:\n Cellular concept, Simple block diagram of GSM system."
+                android:textSize="25sp">
+
+            </TextView>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

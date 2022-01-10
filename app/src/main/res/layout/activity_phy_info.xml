@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_card"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginBottom="20dp"
+            android:background="#2C3E50"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="35dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                app:cardElevation="30dp">
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="0dp"
+                android:elevation="30dp"
+                android:visibility="visible"
+                app:srcCompat="@drawable/physcis_l"
+                tools:visibility="visible" />
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="290dp"
+                android:layout_height="47dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/aclonica"
+                android:text="Physics"
+                android:paddingLeft="50dp"
+                android:textColor="@color/white"
+                android:textSize="35sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="@color/start"
+                android:clickable="true"
+                android:contextClickable="true"
+                android:foreground="?selectableItemBackground"
+                app:cardCornerRadius="50dp"
+                app:cardElevation="20dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/amarante"
+                    android:gravity="center|start"
+                    android:paddingLeft="20dp"
+                    android:text="UNIT-1 Wave Optics "
+
+                    android:textSize="30sp"
+                    android:textStyle="bold">
+
+                </TextView>
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:fontFamily="sans-serif"
+                android:text="Interference  \n- Introduction to electromagnetic waves and electromagnetic spectrum \n- Interference in thin film of uniform thickness (with derivation) \n- Interference in thin film wedge shape (qualitative)\n - Applications of interference: testing optical flatness, anti-reflection coating \n \n Diffraction\n
+- Diffraction of light \n- Diffraction at a single slit, conditions for principal maxima and minima, diffraction pattern\n - Diffraction grating, conditions for principal maxima and minima starting from resultant amplitude equations, diffraction pattern \n- Rayleigh’s criterion for resolution, resolving power of telescope and grating \n \n Polarization \n- Polarization of light, Malus law \n- Double refraction, Huygen’s theory of double refraction \n-Applications of polarization: LCD"
+                android:textSize="25sp">
+
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="@color/start"
+                android:clickable="true"
+                android:contextClickable="true"
+                android:foreground="?selectableItemBackground"
+                app:cardCornerRadius="50dp"
+                app:cardElevation="20dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/amarante"
+                    android:gravity="center|start"
+                    android:paddingLeft="20dp"
+                    android:text="UNIT-2 Laser and Optic Fibre "
+
+                    android:textSize="30sp"
+                    android:textStyle="bold">
+
+                </TextView>
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:fontFamily="sans-serif"
+                android:text="Laser\n - Basics of laser and its mechanism, characteristics of laser \n- Semiconductor laser: Single Hetro-junction laser \n- Gas laser: CO2 laser \n- Applications of lasers: Holography, IT, industrial, medical \n \n Optic Fiber \n- Introduction, parameters: Acceptance Angle, Acceptance Cone, Numerical Aperture \n- Types of optical fiber- step index and graded index \n- Attenuation and reasons for losses in optic fibers (qualitative) \n- Communication system: basic building blocks \nAdvantages of optical fiber communication over conventional methods."
+                android:textSize="25sp">
+
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="@color/start"
+                android:clickable="true"
+                android:contextClickable="true"
+                android:foreground="?selectableItemBackground"
+                app:cardCornerRadius="50dp"
+                app:cardElevation="20dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/amarante"
+                    android:gravity="center|start"
+                    android:paddingLeft="20dp"
+                    android:text="UNIT-3 Quantum Mechanics "
+
+                    android:textSize="30sp"
+                    android:textStyle="bold">
+
+                </TextView>
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:fontFamily="sans-serif"
+                android:text="-  De-Broglie hypothesis
+-  Concept of phase velocity and group velocity (qualitative)
+-  Heisenberg Uncertainty Principle
+-  Wave-function and its physical significance
+-  Schrodinger’s equations: time independent and time dependent
+-  Application of Schrodinger’s time independent wave equation - Particle enclosed in infinitely deep potential well (Particle in RigidBox)
+-  Particle in Finite potential well (Particle in Non Rigid box) (qualitative)
+-  Tunneling effect, Tunneling effect examples (principle only): Alpha Decay, Scanning Tunneling Microscope, Tunnel diode
+-  Introduction to quantum computing"
+                android:textSize="25sp">
+
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="@color/start"
+                android:clickable="true"
+                android:contextClickable="true"
+                android:foreground="?selectableItemBackground"
+                app:cardCornerRadius="50dp"
+                app:cardElevation="20dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/amarante"
+                    android:gravity="center|start"
+                    android:paddingLeft="20dp"
+                    android:text="UNIT-4 Semiconductor Physics"
+
+                    android:textSize="30sp"
+                    android:textStyle="bold">
+
+                </TextView>
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:fontFamily="sans-serif"
+                android:text="- Free electron theory (Qualitative) \n- Opening of band gap due to internal electron diffraction due to lattice Band theory of solids \n- Effective mass of electron Density of states \n- Fermi Dirac distribution function \n- Conductivity of conductors and semiconductors \n- Position of Fermi level in intrinsic and extrinsic semiconductors (with derivations based on carrier concentration) \n- Working of PN junction on the basis of band diagram \n- Expression for barrier potential (derivation) \n- Ideal diode equation \n- Applications of PN junction diode: Solar cell (basic principle with band diagram) IV Characteristics and Parameters, ways of improving efficiency of solar cell \n- Hall effect: Derivation for Hall voltage, Hall coefficient, applications of Hall effect"
+                android:textSize="25sp">
+
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="@color/start"
+                android:clickable="true"
+                android:contextClickable="true"
+                android:foreground="?selectableItemBackground"
+                app:cardCornerRadius="50dp"
+                app:cardElevation="20dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/amarante"
+                    android:gravity="center|start"
+                    android:paddingLeft="20dp"
+                    android:text="UNIT-5 Magnetism and Superconductivity"
+
+                    android:textSize="30sp"
+                    android:textStyle="bold">
+
+                </TextView>
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:fontFamily="sans-serif"
+                android:text="Magnetism\n
+- Origin of magnetism
+- Classification of magnetism on the basis of permeability (qualitative)
+- Applications of magnetic devices: transformer cores, magnetic storage, magneto-optical recording\n \n
+Superconductivity\n
+- Introduction to superconductivity; Properties of superconductors: zero electrical
+- resistance, critical magnetic field, persistent current, Meissner effect
+- Type I and Type II superconductors
+- Low and high temperature superconductors (introduction and qualitative)
+- AC/DC Josephson effect; SQUID: basic construction and principle of working; Applications of SQUID
+- Applications of superconductors"
+                android:textSize="25sp">
+
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="@color/start"
+                android:clickable="true"
+                android:contextClickable="true"
+                android:foreground="?selectableItemBackground"
+                app:cardCornerRadius="50dp"
+                app:cardElevation="20dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/amarante"
+                    android:gravity="center|start"
+                    android:paddingLeft="20dp"
+                    android:text="UNIT-6 Non Destructive Testing and Nanotechnology"
+
+                    android:textSize="30sp"
+                    android:textStyle="bold">
+
+                </TextView>
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:fontFamily="sans-serif"
+                android:text="Non Destructive Testing\n
+- Classification of Non-destructive testing methods
+- Principles of physics in Non-destructive Testing
+- Advantages of Non-destructive testing methods
+- Acoustic Emission Testing
+- Ultrasonic (thickness measurement, flaw detection)
+- Radiography testing\n \n
+Nanotechnology\n
+- Introduction to nanotechnology
+- Quantum confinement and surface to volume ratio
+- Properties of nanoparticles: optical, electrical, mechanical
+Applications of nanoparticles: Medical (targeted drug delivery), electronics, space and defense, automobile"
+                android:textSize="25sp">
+
+            </TextView>
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>

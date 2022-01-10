@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">Orario</string>
+
+    <string name="text_link">
+        <ul><li><a href="https://drive.google.com/drive/folders/1VMdw4nksxNmfnhWzW8WE-Jsx0NAhSld1">Online Resources</a></li></ul>
+    </string>
+    <string name="oss">
+        <ul><li><a href="https://aitoss.club/">OSS AIT</a></li></ul>
+    </string>
+    <string name="gdsc">
+        <ul><li><a href="https://gdscait.org/">GDSC AIT</a></li></ul>
+    </string>
+    <string name="techb">
+        <ul><li><a href="https://ait-techboard.github.io/hackathons/">TECHNICAL BOARD</a></li></ul>
+    </string>
+    <string name="sport">
+        <ul><li><a href="https://www.facebook.com/groups/793403114032949/">SPORTS CLUB</a></li></ul>
+    </string>
+    <string name="ecell">
+        <ul><li><a href="https://aitecell.in/">E CELL</a></li></ul>
+    </string>
+    <string name="cultural">
+        <ul><li><a href="https://www.facebook.com/groups/853461574727996/">CULTURAL BOARD</a></li></ul>
+    </string>
+    <string name="isdf">
+        <ul><li><a href="https://discord.gg/w8ca5KwjdV">ISDF</a></li></ul>
+    </string>
+    <string name="finearts">
+        <ul><li><a href="https://www.instagram.com/fine._.arts._.ait/">FINE ARTS</a></li></ul>
+    </string>
+    <string name="gdxr">
+        <ul><li><a href="https://discord.gg/fDmdeYRreE">GDXR</a></li></ul>
+    </string>
+    <string name="radio">
+        <ul><li><a href="https://www.instagram.com/radioraaga/">RADIO RAGGA</a></li></ul>
+    </string>
+    <string name="cp">
+        <ul><li><a href="https://discord.gg/CsWFU8xWC6">CP CLUB</a></li></ul>
+    </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_login">Login</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+    <string name="standup">
+        <ul><li><a href="https://www.youtube.com/results?search_query=stand+up">STAND UP</a></li></ul>
+    </string>
+    <string name="tsp">
+        <ul><li><a href="https://www.youtube.com/c/TheScreenPatti">TSP</a></li></ul>
+    </string>
+    <string name="explore">
+        <ul><li><a href="https://www.youtube.com/feed/explore">EXPLORE</a></li></ul>
+    </string>
+    <string name="jokes">
+        <ul><li><a href="https://www.rd.com/jokes/">JOKES</a></li></ul>
+    </string>
+    <string name="packman">
+        <ul><li><a href="https://www.google.com/logos/2010/pacman10-i.htmlhttps://www.google.com/logos/2010/pacman10-i.html">PAC-MAN</a></li></ul>
+    </string>
+    <string name="supermario">
+        <ul><li><a href="https://supermarioplay.com/">SUPER MARIO</a></li></ul>
+    </string>
+    <string name="amongus">
+        <ul><li><a href="https://zodigames.com/action/among-us/">AMONG US</a></li></ul>
+    </string>
+
+
+
+</resources>
