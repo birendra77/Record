@@ -37,7 +37,9 @@ The app was created in Android Studio with Kotlin as the primary programming lan
 
 #### Application Link & Future Scope
 
-The App is still in its early stages, with only the first version ready with a basic concept, we also have some ideas for how we want to improve our app.
+The [App](https://drive.google.com/file/d/12mQz6QGHbyeNOrHelYDOZ0VziMCkErqd/view?usp=sharing) is still in its early stages, with only the first version ready with a basic concept, we also have some ideas for how we want to improve our app.
+
+
 
  - To make the Sign In page more complete and to link students' Outlook Email IDs.
  - We'd like to put the app online and have it refresh its schedule with the individuals connected's outlook email addresses when they sign up. In the app, if any classes are cancelled, the app will instantly update.
