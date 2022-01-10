@@ -2,7 +2,7 @@
 
 ---
 
- ## College Timetable
+ ## College Timetable App  (ORARIO)
  
 
 #### Problem Statement
@@ -50,3 +50,6 @@ The App is currently in its very initial stage with only first version released 
 Some Really Really Future Update:
 
 - Help people in organizing meets, it gets crowded when u join too many clubs, so This app will give notifs when There are any scheduled meet other than academics like those in Clubs, and inst
+
+
+"Orario" is Time(table) in Italian
