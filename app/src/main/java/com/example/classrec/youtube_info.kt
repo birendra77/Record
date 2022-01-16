@@ -8,6 +8,8 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
+import androidx.cardview.widget.CardView
+import androidx.navigation.Navigation
 
 
 class youtube_info : Fragment() {
@@ -34,6 +36,11 @@ class youtube_info : Fragment() {
 
         explor_e.movementMethod= LinkMovementMethod.getInstance()
         explor_e.setLinkTextColor(Color.WHITE)
+
+        val yt_Back : CardView =view1.findViewById(R.id.yt_back)
+        yt_Back.setOnClickListener{
+            Navigation.findNavController(view1).navigate(R.id.fun_frag1)
+        }
 
 
         return view1

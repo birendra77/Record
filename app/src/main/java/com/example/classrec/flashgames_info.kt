@@ -8,6 +8,8 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
+import androidx.cardview.widget.CardView
+import androidx.navigation.Navigation
 
 class flashgames_info : Fragment() {
 
@@ -32,6 +34,11 @@ class flashgames_info : Fragment() {
 
         Au.movementMethod= LinkMovementMethod.getInstance()
         Au.setLinkTextColor(Color.WHITE)
+
+        val fg_Back : CardView =view2.findViewById(R.id.fg_back)
+        fg_Back.setOnClickListener{
+            Navigation.findNavController(view2).navigate(R.id.fun_frag1)
+        }
 
         return view2
     }

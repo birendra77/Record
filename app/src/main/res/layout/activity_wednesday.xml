@@ -18,18 +18,26 @@
             android:background="@color/start"
             android:orientation="horizontal">
 
+            <androidx.cardview.widget.CardView
+                android:id="@+id/wed_back"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:backgroundTint="#2C3E50"
+                android:layout_marginLeft="10dp"
+                android:clickable="true"
+                android:foreground="?selectableItemBackground"
+                app:cardCornerRadius="20dp">
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/ic_baseline_arrow_back_24">
 
-            <ImageView
-                android:layout_width="70dp"
-                android:layout_height="match_parent"
-                android:layout_marginStart="0dp"
-                android:elevation="30dp"
-                android:visibility="visible"
-                app:srcCompat="@drawable/wedn"
-                tools:visibility="visible" />
+                </ImageView>
+            </androidx.cardview.widget.CardView>
 
             <TextView
-                android:layout_width="290dp"
+                android:layout_width="250dp"
                 android:layout_height="47dp"
                 android:layout_marginStart="15dp"
                 android:layout_marginTop="20dp"
@@ -40,6 +48,14 @@
                 android:textColor="@color/white"
                 android:textSize="35sp"
                 android:textStyle="bold" />
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="0dp"
+                android:elevation="30dp"
+                android:visibility="visible"
+                app:srcCompat="@drawable/wedn"
+                tools:visibility="visible" />
         </LinearLayout>
 
         <LinearLayout

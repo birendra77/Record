@@ -30,6 +30,10 @@ class subjects : AppCompatActivity() {
         Sme.setOnClickListener(){
             startActivity(Intent(this,sme_info::class.java))
         }
+        val sub_Back:CardView=findViewById(R.id.sub_back)
+        sub_Back.setOnClickListener{
+            startActivity(Intent(this,MainActivity::class.java))
+        }
 
     }
 }

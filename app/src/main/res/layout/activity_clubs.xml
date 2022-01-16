@@ -16,12 +16,30 @@
             android:layout_marginBottom="20dp"
             android:background="#2C3E50"
             android:orientation="horizontal">
+            <androidx.cardview.widget.CardView
+                android:id="@+id/club_back"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:backgroundTint="#2C3E50"
+                android:layout_marginLeft="10dp"
+                android:clickable="true"
+                android:foreground="?selectableItemBackground"
+                app:cardCornerRadius="20dp">
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/ic_baseline_arrow_back_24">
+
+                </ImageView>
+            </androidx.cardview.widget.CardView>
 
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="47dp"
                 android:layout_marginTop="20dp"
+                android:paddingLeft="-50dp"
                 android:layout_marginBottom="10dp"
                 android:fontFamily="@font/aclonica"
                 android:text="Clubs"
@@ -84,21 +102,21 @@
             app:cardCornerRadius="50dp"
             app:cardElevation="20dp">
 
+
             <androidx.cardview.widget.CardView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="30dp"
-            app:cardCornerRadius="40dp"
-            app:cardElevation="30dp">
-            <ImageView
-                android:layout_width="80dp"
-                android:layout_height="match_parent"
-                android:elevation="30dp"
-                android:src="@drawable/ossaitlogo">
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                app:cardCornerRadius="40dp"
+                app:cardElevation="30dp">
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="match_parent"
+                    android:elevation="30dp"
+                    android:src="@drawable/ossaitlogo">
 
-            </ImageView>
+                </ImageView>
             </androidx.cardview.widget.CardView>
-
             <TextView
                 android:id="@+id/oss_ait"
                 android:layout_width="match_parent"

@@ -31,6 +31,10 @@ class MainActivity : AppCompatActivity() {
         club.setOnClickListener {
             startActivity(Intent(this, clubs::class.java))
         }
+        val Men: ImageView = findViewById(R.id.menu)
+        Men.setOnClickListener {
+            startActivity(Intent(this, user_info::class.java))
+        }
 
 
 

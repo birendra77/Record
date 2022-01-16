@@ -1,15 +1,22 @@
 package com.example.classrec
 
+import android.content.Intent
 import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.text.method.LinkMovementMethod
 import android.widget.TextView
+import androidx.cardview.widget.CardView
 
 class clubs : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_clubs)
+
+        val club_Back : CardView = findViewById(R.id.club_back)
+        club_Back.setOnClickListener(){
+            startActivity(Intent(this,MainActivity::class.java))
+        }
 
         val Gdsc: TextView =findViewById(R.id.gdsc_ait)
         Gdsc.movementMethod= LinkMovementMethod.getInstance()

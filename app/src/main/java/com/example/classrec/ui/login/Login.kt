@@ -1,6 +1,7 @@
 package com.example.classrec.ui.login
 
 import android.app.Activity
+import android.content.Intent
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import android.os.Bundle
@@ -12,9 +13,12 @@ import android.view.View
 import android.view.inputmethod.EditorInfo
 import android.widget.EditText
 import android.widget.Toast
+import androidx.cardview.widget.CardView
+import com.example.classrec.MainActivity
 import com.example.classrec.databinding.ActivityLoginBinding
 
 import com.example.classrec.R
+import com.example.classrec.days
 
 class Login : AppCompatActivity() {
 
@@ -95,6 +99,11 @@ class Login : AppCompatActivity() {
                 loading.visibility = View.VISIBLE
                 loginViewModel.login(username.text.toString(), password.text.toString())
             }
+        }
+
+        val login_Back: CardView = findViewById(R.id.login_back)
+        login_Back.setOnClickListener {
+            startActivity(Intent(this, MainActivity::class.java))
         }
     }
 

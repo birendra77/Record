@@ -10,5 +10,11 @@ class tuesday : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_tuesday)
 
+        val tues_Back :CardView=findViewById(R.id.tues_back)
+        tues_Back.setOnClickListener{
+            startActivity(Intent(this,days::class.java))
+        }
+
+
     }
 }

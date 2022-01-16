@@ -62,7 +62,7 @@
         <ul><li><a href="https://www.rd.com/jokes/">JOKES</a></li></ul>
     </string>
     <string name="packman">
-        <ul><li><a href="https://www.google.com/logos/2010/pacman10-i.htmlhttps://www.google.com/logos/2010/pacman10-i.html">PAC-MAN</a></li></ul>
+        <ul><li><a href="https://freepacman.org/">PAC-MAN</a></li></ul>
     </string>
     <string name="supermario">
         <ul><li><a href="https://supermarioplay.com/">SUPER MARIO</a></li></ul>
@@ -71,6 +71,13 @@
         <ul><li><a href="https://zodigames.com/action/among-us/">AMONG US</a></li></ul>
     </string>
 
+    <string name="birdev">
+        <ul><li><a href="https://g.dev/birendra23">BIRENDRA</a></li></ul>
+    </string>
+
+    <string name="hemdev">
+        <ul><li><a href="http://g.dev/flyingshadow">HEMANT</a></li></ul>
+    </string>
 
 
 </resources>

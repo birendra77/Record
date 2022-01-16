@@ -30,5 +30,10 @@ class days : AppCompatActivity() {
         Friday.setOnClickListener(){
             startActivity(Intent(this,friday::class.java))
         }
+        val days_Back : CardView = findViewById(R.id.days_back)
+        days_Back.setOnClickListener(){
+            startActivity(Intent(this,MainActivity::class.java))
+        }
+
     }
 }

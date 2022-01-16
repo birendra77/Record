@@ -6,15 +6,29 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".youtube_info"
     android:orientation="vertical">
+    <androidx.cardview.widget.CardView
+        android:id="@+id/yt_back"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:clickable="true"
+        android:foreground="?selectableItemBackground"
+        app:cardCornerRadius="20dp">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_baseline_arrow_back_24">
 
-
+        </ImageView>
+    </androidx.cardview.widget.CardView>
     <androidx.cardview.widget.CardView
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:layout_gravity="center"
         android:backgroundTint="#2C2C2C"
-        android:layout_marginTop="20dp"
         app:cardCornerRadius="75dp">
+
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"

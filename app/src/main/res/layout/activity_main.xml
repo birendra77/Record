@@ -10,7 +10,7 @@
         android:id="@+id/container_frag_1"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/bg_header"
+        android:background="#242527"
         android:orientation="vertical"
         android:scrollbarAlwaysDrawVerticalTrack="true"
         tools:context=".MainActivity">
@@ -20,17 +20,21 @@
             android:layout_width="match_parent"
             android:layout_height="80dp"
             android:layout_marginBottom="20dp"
-            android:background="@color/black"
+            android:background="#000000"
             android:orientation="horizontal">
 
 
             <ImageView
-                android:layout_width="70dp"
-                android:layout_height="match_parent"
+                android:id="@+id/menu"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
                 android:layout_marginStart="10dp"
                 android:elevation="30dp"
+                android:clickable="true"
+                android:foreground="?selectableItemBackground"
+                android:layout_marginTop="15dp"
                 android:visibility="visible"
-                app:srcCompat="@drawable/orario"
+                app:srcCompat="@drawable/ic_baseline_menu_24"
                 tools:visibility="visible" />
 
             <TextView
@@ -40,7 +44,7 @@
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="10dp"
                 android:fontFamily="@font/aclonica"
-                android:text="ORARIO"
+                android:text="  Home"
                 android:textAlignment="center"
                 android:textColor="#AEFFFFFF"
                 android:textSize="35sp"
@@ -49,19 +53,18 @@
             <androidx.cardview.widget.CardView
                 android:id="@+id/Login_page"
                 android:layout_width="wrap_content"
-                android:layout_height="50dp"
-                android:layout_marginLeft="40dp"
-                android:layout_marginTop="20dp"
-                android:backgroundTint="#2C2C2C"
+                android:layout_height="70dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="5dp"
+                android:backgroundTint="#191818"
                 app:cardCornerRadius="20dp"
                 android:layout_marginBottom="30dp"
                 android:clickable="true"
                 android:foreground="?selectableItemBackground">
                 <ImageView
-                    android:layout_width="50dp"
-                    android:background="@color/black"
+                    android:layout_width="70dp"
                     android:layout_height="match_parent"
-                    android:src="@drawable/ic_baseline_person_24"
+                    android:src="@drawable/orario"
                     android:layout_gravity="center">
 
                 </ImageView>

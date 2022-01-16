@@ -12,6 +12,23 @@
         android:layout_marginBottom="20dp"
         android:background="@color/start"
         android:orientation="horizontal">
+        <androidx.cardview.widget.CardView
+            android:id="@+id/sub_back"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:backgroundTint="#2C3E50"
+            android:layout_marginLeft="10dp"
+            android:clickable="true"
+            android:foreground="?selectableItemBackground"
+            app:cardCornerRadius="20dp">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/ic_baseline_arrow_back_24">
+
+            </ImageView>
+        </androidx.cardview.widget.CardView>
 
 
         <TextView
@@ -21,6 +38,7 @@
             android:layout_marginBottom="10dp"
             android:fontFamily="@font/aclonica"
             android:text="Subjects"
+            android:paddingLeft="-35dp"
             android:textAlignment="center"
             android:textColor="#FDC689"
             android:textSize="35sp"

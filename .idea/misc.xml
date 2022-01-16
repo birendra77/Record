@@ -6,8 +6,11 @@
         <entry key="..\:/Users/Birendra Mohapatra/AndroidStudioProjects/classrec/app/src/main/res/drawable/bg_card.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Birendra Mohapatra/AndroidStudioProjects/classrec/app/src/main/res/drawable/bg_header.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Birendra Mohapatra/AndroidStudioProjects/classrec/app/src/main/res/drawable/ic_baseline_keyboard_arrow_down_24.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Birendra Mohapatra/AndroidStudioProjects/classrec/app/src/main/res/drawable/ic_baseline_menu_24.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Birendra Mohapatra/AndroidStudioProjects/classrec/app/src/main/res/drawable/ic_baseline_sort_24.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Birendra Mohapatra/AndroidStudioProjects/classrec/app/src/main/res/font/aclonica.xml" value="0.2682291666666667" />
+        <entry key="..\:/Users/Birendra Mohapatra/AndroidStudioProjects/classrec/app/src/main/res/layout-w1240dp/activity_login.xml" value="0.15294511378848727" />
+        <entry key="..\:/Users/Birendra Mohapatra/AndroidStudioProjects/classrec/app/src/main/res/layout-w936dp/activity_login.xml" value="0.178515625" />
         <entry key="..\:/Users/Birendra Mohapatra/AndroidStudioProjects/classrec/app/src/main/res/layout/activity_bxe_info.xml" value="0.21793037672866" />
         <entry key="..\:/Users/Birendra Mohapatra/AndroidStudioProjects/classrec/app/src/main/res/layout/activity_clubs.xml" value="0.23802083333333332" />
         <entry key="..\:/Users/Birendra Mohapatra/AndroidStudioProjects/classrec/app/src/main/res/layout/activity_clubs_info.xml" value="0.264" />
@@ -27,6 +30,7 @@
         <entry key="..\:/Users/Birendra Mohapatra/AndroidStudioProjects/classrec/app/src/main/res/layout/activity_subjects.xml" value="0.23802083333333332" />
         <entry key="..\:/Users/Birendra Mohapatra/AndroidStudioProjects/classrec/app/src/main/res/layout/activity_thursday.xml" value="0.23802083333333332" />
         <entry key="..\:/Users/Birendra Mohapatra/AndroidStudioProjects/classrec/app/src/main/res/layout/activity_tuesday.xml" value="0.23802083333333332" />
+        <entry key="..\:/Users/Birendra Mohapatra/AndroidStudioProjects/classrec/app/src/main/res/layout/activity_user_info.xml" value="0.23802083333333332" />
         <entry key="..\:/Users/Birendra Mohapatra/AndroidStudioProjects/classrec/app/src/main/res/layout/activity_wednesday.xml" value="0.23802083333333332" />
         <entry key="..\:/Users/Birendra Mohapatra/AndroidStudioProjects/classrec/app/src/main/res/layout/activity_youtube.xml" value="0.22395833333333334" />
         <entry key="..\:/Users/Birendra Mohapatra/AndroidStudioProjects/classrec/app/src/main/res/layout/fragment_flashgames_info.xml" value="0.23802083333333332" />
