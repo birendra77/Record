@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".user_info"
+    android:orientation="vertical"
+    android:background="@color/black">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <androidx.cardview.widget.CardView
+        android:id="@+id/user_back"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/black"
+        android:layout_marginLeft="10dp"
+        android:clickable="true"
+        android:layout_marginTop="10dp"
+        android:foreground="?selectableItemBackground"
+        app:cardCornerRadius="20dp">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_baseline_arrow_back_24">
+
+        </ImageView>
+
+
+    </androidx.cardview.widget.CardView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:paddingLeft="-70dp"
+            android:text="Menu"
+            android:textSize="30sp"
+            android:fontFamily="@font/aclonica"
+            android:textStyle="bold">
+
+        </TextView>
+    </LinearLayout>
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        app:cardCornerRadius="100dp">
+        <ImageView
+            android:layout_width="200dp"
+            android:background="#2C3E50"
+            android:layout_height="200dp"
+            android:src="@drawable/ic_baseline_person_24">
+
+        </ImageView>
+    </androidx.cardview.widget.CardView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Jane Doe"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/aclonica">
+
+    </TextView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:clickable="true"
+        android:foreground="?selectableItemBackground"
+        android:backgroundTint="@color/start"
+        app:cardCornerRadius="50dp"
+        app:cardElevation="20dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        app:cardCornerRadius="40dp"
+        app:cardElevation="30dp">
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:elevation="30dp"
+            android:background="#2C3E50"
+            android:src="@drawable/ic_baseline_class_24">
+
+        </ImageView>
+    </androidx.cardview.widget.CardView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="ENTC-B"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/aclonica">
+
+        </TextView>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:clickable="true"
+        android:foreground="?selectableItemBackground"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="@color/start"
+        app:cardCornerRadius="50dp"
+        app:cardElevation="20dp">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            app:cardCornerRadius="40dp"
+            app:cardElevation="30dp">
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:background="#2C3E50"
+                android:elevation="30dp"
+                android:src="@drawable/ic_baseline_developer_mode_24">
+
+            </ImageView>
+        </androidx.cardview.widget.CardView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="About Us"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/aclonica">
+
+        </TextView>
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_baseline_keyboard_arrow_down_24"
+            android:layout_gravity="right"
+            android:layout_marginRight="70dp">
+
+        </ImageView>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:clickable="true"
+        android:foreground="?selectableItemBackground"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/start"
+        app:cardCornerRadius="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        app:cardElevation="20dp">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            app:cardCornerRadius="40dp"
+            app:cardElevation="30dp">
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:background="#2C3E50"
+                android:elevation="30dp"
+                android:src="@drawable/ic_baseline_computer_24">
+
+            </ImageView>
+        </androidx.cardview.widget.CardView>
+        <TextView
+            android:id="@+id/bir_dev"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/birdev"
+            android:paddingLeft="150dp"
+            android:textSize="25sp"
+            android:paddingTop="5dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/aclonica">
+
+        </TextView>
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:clickable="true"
+        android:foreground="?selectableItemBackground"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/start"
+        app:cardCornerRadius="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        app:cardElevation="20dp">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            app:cardCornerRadius="40dp"
+            app:cardElevation="30dp">
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:background="#2C3E50"
+                android:elevation="30dp"
+                android:src="@drawable/ic_baseline_phone_iphone_24">
+
+            </ImageView>
+        </androidx.cardview.widget.CardView>
+        <TextView
+            android:id="@+id/hem_dev"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/hemdev"
+            android:paddingLeft="150dp"
+            android:textSize="25sp"
+            android:paddingTop="5dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/aclonica">
+
+        </TextView>
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:clickable="true"
+        android:foreground="?selectableItemBackground"
+        android:backgroundTint="@color/start"
+        app:cardCornerRadius="50dp"
+        app:cardElevation="20dp">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            app:cardCornerRadius="40dp"
+            app:cardElevation="30dp">
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:background="#2C3E50"
+                android:elevation="30dp"
+                android:src="@drawable/ic_baseline_settings_24">
+
+            </ImageView>
+        </androidx.cardview.widget.CardView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Setting"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/aclonica">
+
+        </TextView>
+    </androidx.cardview.widget.CardView>
+
+
+
+
+</LinearLayout>
