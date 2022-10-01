@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bg_card"
+    android:background="@drawable/bg_img"
     android:orientation="vertical">
 
     <LinearLayout
@@ -39,10 +39,10 @@
             android:layout_marginTop="20dp"
             android:layout_marginBottom="10dp"
             android:fontFamily="@font/aclonica"
-            android:text="Time table"
+            android:text="New Complaints"
             android:paddingLeft="-35dp"
             android:textAlignment="center"
-            android:textColor="#FDC689"
+            android:textColor="#FF5722"
             android:textSize="35sp"
             android:textStyle="bold" />
     </LinearLayout>
@@ -50,7 +50,7 @@
     <androidx.cardview.widget.CardView
         android:id="@+id/Monday_card"
         android:layout_width="match_parent"
-        android:layout_height="90dp"
+        android:layout_height="500dp"
         android:layout_marginTop="10dp"
         android:backgroundTint="@color/start"
         android:clickable="true"
@@ -59,33 +59,117 @@
         app:cardCornerRadius="50dp"
         app:cardElevation="20dp">
 
-
-        <ImageView
-            android:layout_width="80dp"
-            android:layout_height="match_parent"
-            android:layout_marginLeft="30dp"
-            android:elevation="30dp"
-            android:src="@drawable/mon"></ImageView>
-
-        <TextView
+        <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:fontFamily="@font/amarante"
-            android:gravity="center"
-            android:text="Monday"
-            android:textColor="@color/teal_200"
-            android:textSize="40sp"
-            android:textStyle="bold" />
+            android:layout_margin="20dp"
+            app:cardCornerRadius="40dp">
+
+
+            <EditText
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="NAME: " />
+
+            <EditText
+                android:id="@+id/branch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="80dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="BRANCH: " />
+
+            <EditText
+                android:id="@+id/reg"
+                android:layout_width="match_parent"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="130dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="REG. NO.: " />
+
+            <EditText
+                android:id="@+id/room"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="180dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="ROOM NO.: " />
+
+            <EditText
+                android:id="@+id/hostel"
+                android:layout_width="match_parent"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:layout_marginTop="230dp"
+                android:text="HOSTEL: " />
+
+            <Button
+                android:id="@+id/electrician"
+                android:layout_width="145dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:backgroundTint="@color/teal_700"
+                android:layout_marginTop="330dp"
+                android:text="ELECTRICAL" />
+
+            <Button
+                android:id="@+id/carpentry"
+                android:layout_width="146dp"
+                android:backgroundTint="@color/teal_700"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="200dp"
+                android:layout_marginTop="330dp"
+                android:text="CARPENTRY" />
+
+            <Button
+                android:id="@+id/plumbing"
+                android:layout_width="164dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/teal_700"
+                android:layout_marginStart="120dp"
+                android:layout_marginTop="380dp"
+                android:text="PLUMBING" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#FF5722"
+                android:layout_marginTop="290dp"
+                android:text="Select the Complaint type"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:fontFamily="@font/aclonica"/>
+        </androidx.cardview.widget.CardView>
 
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
         android:id="@+id/Tuesday_card"
         android:layout_width="match_parent"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
         android:layout_height="90dp"
-        android:layout_marginTop="30dp"
-        android:backgroundTint="@color/start"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#A6FF5722"
         android:clickable="true"
         android:foreground="?selectableItemBackground"
         android:contextClickable="true"
@@ -93,128 +177,32 @@
         app:cardElevation="20dp">
 
 
-        <ImageView
-            android:layout_width="80dp"
-            android:layout_height="match_parent"
-            android:layout_marginLeft="30dp"
-            android:elevation="30dp"
-            android:src="@drawable/tues"></ImageView>
+
 
         <TextView
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:fontFamily="@font/amarante"
             android:gravity="center"
-            android:text="Tuesday"
-            android:textColor="@color/teal_200"
-            android:textSize="40sp"
+            android:layout_marginStart="70dp"
+            android:text="    Proceed  "
+            android:textColor="@color/black"
+            android:textSize="30sp"
             android:textStyle="bold" />
-
-    </androidx.cardview.widget.CardView>
-
-    <androidx.cardview.widget.CardView
-        android:id="@+id/Wednesday_card"
-        android:layout_width="match_parent"
-        android:layout_height="90dp"
-        android:layout_marginTop="30dp"
-        android:backgroundTint="@color/start"
-        android:clickable="true"
-        android:foreground="?selectableItemBackground"
-        android:contextClickable="true"
-        app:cardCornerRadius="50dp"
-        app:cardElevation="20dp">
-
 
         <ImageView
             android:layout_width="80dp"
             android:layout_height="match_parent"
-            android:layout_marginLeft="30dp"
             android:elevation="30dp"
-            android:src="@drawable/wedn">
+            android:layout_marginStart="250dp"
+            android:src="@drawable/proceed_img">
 
         </ImageView>
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:fontFamily="@font/amarante"
-            android:gravity="center"
-            android:paddingLeft="50dp"
-            android:text="Wednesday"
-            android:textColor="@color/teal_200"
-            android:textSize="40sp"
-            android:textStyle="bold" />
-
     </androidx.cardview.widget.CardView>
 
-    <androidx.cardview.widget.CardView
-        android:id="@+id/Thursday_card"
-        android:layout_width="match_parent"
-        android:layout_height="90dp"
-        android:layout_marginTop="30dp"
-        android:backgroundTint="@color/start"
-        android:clickable="true"
-        android:foreground="?selectableItemBackground"
-        app:cardCornerRadius="50dp"
-        app:cardElevation="20dp">
 
-
-        <ImageView
-            android:layout_width="80dp"
-            android:layout_height="match_parent"
-            android:layout_marginLeft="30dp"
-            android:elevation="30dp"
-            android:src="@drawable/thur">
-
-        </ImageView>
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:fontFamily="@font/amarante"
-            android:gravity="center"
-            android:paddingLeft="20dp"
-            android:text="Thursday"
-            android:textColor="@color/teal_200"
-            android:textSize="40sp"
-            android:textStyle="bold" />
-
-    </androidx.cardview.widget.CardView>
-
-    <androidx.cardview.widget.CardView
-        android:id="@+id/Friday_card"
-        android:layout_width="match_parent"
-        android:layout_height="90dp"
-        android:layout_marginTop="30dp"
-        android:backgroundTint="@color/start"
-        android:clickable="true"
-        android:foreground="?selectableItemBackground"
-        app:cardCornerRadius="50dp"
-        app:cardElevation="20dp">
-
-
-        <ImageView
-            android:layout_width="80dp"
-            android:layout_height="match_parent"
-            android:layout_marginLeft="30dp"
-            android:elevation="30dp"
-            android:src="@drawable/fri"></ImageView>
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:fontFamily="@font/amarante"
-            android:gravity="center"
-            android:text="Friday"
-            android:textColor="@color/teal_200"
-            android:textSize="40sp"
-            android:textStyle="bold" />
-
-    </androidx.cardview.widget.CardView>
 
 
 </LinearLayout>

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
-        xmlns:tools="http://schemas.android.com/tools"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/bg_card"
+        android:background="@drawable/bg_img"
         android:orientation="vertical">
 
         <LinearLayout
@@ -42,290 +42,133 @@
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="10dp"
                 android:fontFamily="@font/aclonica"
-                android:text="Tuesday"
+                android:text="Continue..."
                 android:textAlignment="center"
                 android:textColor="@color/white"
                 android:textSize="35sp"
                 android:textStyle="bold" />
-            <ImageView
-                android:layout_width="70dp"
+
+        </LinearLayout>
+
+        <androidx.cardview.widget.CardView
+
+            android:layout_width="match_parent"
+            android:layout_height="800dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/start"
+            android:clickable="true"
+            android:contextClickable="true"
+            android:foreground="?selectableItemBackground"
+            app:cardCornerRadius="50dp"
+            app:cardElevation="20dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginStart="0dp"
+                android:layout_margin="20dp"
+                app:cardCornerRadius="40dp">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:layout_margin="20dp"
+                    android:backgroundTint="@color/start"
+                    app:cardCornerRadius="40dp">
+
+                    <MultiAutoCompleteTextView
+                        android:id="@+id/multiAutoCompleteTextView"
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp"
+                        android:fontFamily="@font/aclonica"
+                        android:text="Write the description of your complain :         ----------------------------------------------------------------------------------------------------    -------    -----------"
+                        android:textColor="@color/teal_200"
+                        android:textSize="20sp" />
+
+
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="400dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="300dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:backgroundTint="@color/start"
+                    app:cardCornerRadius="40dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/broken_door">
+
+                    </ImageView>
+
+
+                </androidx.cardview.widget.CardView>
+
+
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="116dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="60dp"
+                    android:layout_marginTop="710dp"
+                    android:text="DELETE" />
+
+                <Button
+                    android:id="@+id/button"
+                    android:layout_width="117dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="220dp"
+                    android:layout_marginTop="710dp"
+                    android:text="ADD" />
+            </androidx.cardview.widget.CardView>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+
+            android:layout_width="match_parent"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_height="90dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="30dp"
+            android:backgroundTint="#A6FF5722"
+            android:clickable="true"
+            android:foreground="?selectableItemBackground"
+            android:contextClickable="true"
+            app:cardCornerRadius="50dp"
+            app:cardElevation="20dp">
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:fontFamily="@font/amarante"
+                android:gravity="center"
+                android:layout_marginStart="70dp"
+                android:text="    Submit  "
+                android:textColor="@color/black"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
                 android:elevation="30dp"
-                android:visibility="visible"
-                app:srcCompat="@drawable/tues"
-                tools:visibility="visible" />
-        </LinearLayout>
+                android:layout_marginStart="250dp"
+                android:src="@drawable/submit2_img">
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="130dp"
-            android:orientation="vertical">
+            </ImageView>
 
-            <androidx.cardview.widget.CardView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:backgroundTint="@color/start"
-                app:cardCornerRadius="20dp">
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="30dp"
-                    android:fontFamily="@font/amarante"
-                    android:text="8:45 - 9:45"
-                    android:textSize="30sp"></TextView>
-
-
-            </androidx.cardview.widget.CardView>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-medium"
-                android:gravity="center_horizontal"
-                android:text="Bxe"
-                android:textColor="@color/teal_200"
-
-                android:textSize="35sp"
-                android:textStyle="bold">
-
-            </TextView>
-
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="130dp"
-            android:orientation="vertical">
-
-            <androidx.cardview.widget.CardView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="30dp"
-                android:backgroundTint="@color/start"
-                app:cardCornerRadius="20dp">
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="30dp"
-                    android:fontFamily="@font/amarante"
-                    android:text="9:50 - 10:50"
-                    android:textSize="30sp"></TextView>
-
-
-            </androidx.cardview.widget.CardView>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-medium"
-                android:gravity="center_horizontal"
-                android:text="Physics"
-                android:textColor="@color/teal_200"
-                android:textSize="35sp"
-
-                android:textStyle="bold">
-
-            </TextView>
-
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="130dp"
-            android:layout_marginTop="30dp"
-            android:orientation="vertical">
-
-            <androidx.cardview.widget.CardView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:backgroundTint="@color/start"
-                app:cardCornerRadius="20dp">
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="30dp"
-                    android:fontFamily="@font/amarante"
-                    android:text="11:00 - 12:00"
-                    android:textSize="30sp"></TextView>
-
-
-            </androidx.cardview.widget.CardView>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-medium"
-                android:gravity="center_horizontal"
-                android:text="Mathematics"
-                android:textColor="@color/teal_200"
-
-                android:textSize="35sp"
-                android:textStyle="bold">
-
-            </TextView>
-
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="130dp"
-            android:orientation="vertical">
-
-            <androidx.cardview.widget.CardView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:backgroundTint="@color/start"
-                app:cardCornerRadius="20dp">
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="30dp"
-                    android:fontFamily="@font/amarante"
-                    android:text="12:05 - 01:05"
-                    android:textSize="30sp"></TextView>
-
-
-            </androidx.cardview.widget.CardView>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-medium"
-                android:gravity="center_horizontal"
-                android:text="Sme"
-                android:textColor="@color/teal_200"
-                android:textSize="35sp"
-
-                android:textStyle="bold">
-
-            </TextView>
-
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="218dp"
-            android:orientation="vertical">
-
-            <androidx.cardview.widget.CardView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:backgroundTint="@color/start"
-                app:cardCornerRadius="20dp">
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="30dp"
-                    android:fontFamily="@font/amarante"
-                    android:text="01:45 - 02:45"
-                    android:textSize="30sp"></TextView>
-
-
-            </androidx.cardview.widget.CardView>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-medium"
-                android:gravity="center_horizontal"
-                android:text="F1 -Workshop\nF2 -Counselling hour\nF3 -Sme Practical"
-                android:textColor="@color/teal_200"
-                android:textSize="35sp"
-
-                android:textStyle="bold">
-
-            </TextView>
-
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="130dp"
-            android:layout_marginTop="30dp"
-            android:orientation="vertical">
-
-            <androidx.cardview.widget.CardView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:backgroundTint="@color/start"
-                app:cardCornerRadius="20dp">
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="30dp"
-                    android:fontFamily="@font/amarante"
-                    android:text="02:50 - 03:50"
-                    android:textSize="30sp"></TextView>
-
-
-            </androidx.cardview.widget.CardView>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-medium"
-                android:gravity="center_horizontal"
-                android:text="F3 -Counselling hour"
-                android:textColor="@color/teal_200"
-                android:textSize="35sp"
-
-                android:textStyle="bold">
-
-            </TextView>
-
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="130dp"
-            android:layout_marginTop="30dp"
-            android:orientation="vertical">
-
-            <androidx.cardview.widget.CardView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:backgroundTint="@color/start"
-                app:cardCornerRadius="20dp">
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="30dp"
-                    android:fontFamily="@font/amarante"
-                    android:text="03:50 - 04:50"
-                    android:textSize="30sp"></TextView>
-
-
-            </androidx.cardview.widget.CardView>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-medium"
-                android:gravity="center_horizontal"
-                android:text="Python Programming Language"
-                android:textColor="@color/teal_200"
-                android:textSize="35sp"
-
-                android:textStyle="bold">
-
-            </TextView>
-
-
-        </LinearLayout>
+        </androidx.cardview.widget.CardView>
 
 
     </LinearLayout>

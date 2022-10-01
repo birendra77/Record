@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/fun_frag1"
-        android:name="com.example.classrec.fun_frag1"
+        android:name="com.example.Record.fun_frag1"
         android:label="fragment_fun_frag1"
         tools:layout="@layout/fragment_fun_frag1" >
         <action
@@ -22,17 +22,17 @@
     </fragment>
     <fragment
         android:id="@+id/youtube_info"
-        android:name="com.example.classrec.youtube_info"
+        android:name="com.example.Record.youtube_info"
         android:label="fragment_youtube_info"
         tools:layout="@layout/fragment_youtube_info" />
     <fragment
         android:id="@+id/jpkes_info"
-        android:name="com.example.classrec.jpkes_info"
+        android:name="com.example.Record.jpkes_info"
         android:label="fragment_jpkes_info"
         tools:layout="@layout/fragment_jpkes_info" />
     <fragment
         android:id="@+id/flashgames_info"
-        android:name="com.example.classrec.flashgames_info"
+        android:name="com.example.Record.flashgames_info"
         android:label="fragment_flashgames_info"
         tools:layout="@layout/fragment_flashgames_info" />
 </navigation>

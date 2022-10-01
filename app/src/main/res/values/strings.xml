@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Orario</string>
+    <string name="app_name">Record</string>
 
     <string name="text_link">
         <ul><li><a href="https://drive.google.com/drive/folders/1VMdw4nksxNmfnhWzW8WE-Jsx0NAhSld1">Online Resources</a></li></ul>
@@ -75,8 +75,8 @@
         <ul><li><a href="https://g.dev/birendra23">BIRENDRA</a></li></ul>
     </string>
 
-    <string name="hemdev">
-        <ul><li><a href="http://g.dev/flyingshadow">HEMANT</a></li></ul>
+    <string name="ankdev">
+        <ul><li><a href="https://g.dev/inevitable_ank">ANKIT</a></li></ul>
     </string>
 
 

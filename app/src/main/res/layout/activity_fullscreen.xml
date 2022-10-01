@@ -5,13 +5,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".fullscreen"
-    android:background="@color/black">
+    android:background="#C3C3C3">
 
     <ImageView
         android:id="@+id/iv_ss"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:src="@drawable/orario_ss">
+        android:src="@drawable/ss_com_app">
 
     </ImageView>
 
